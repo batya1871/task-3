@@ -1,0 +1,46 @@
+.body, .html {
+    height: 100%;
+}
+
+.body {
+    margin: 0;
+}
+.main-404 {
+    background-color: #242C2E;
+    color: #1BA86B;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-block {
+    background: #22292b;
+    border: 1px solid #1BA86B;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-404 {
+    margin: 2.5em;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.info-ref {
+    color: #1BA86B;
+    font-weight: 600;
+}
+
+.info-ref:hover {
+    color: #40c68b;
+}
+.info-ref:active {
+    color: #184c37;
+}
