@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.block-1 {
+    background-color: #A1BD57;
+    height: 50%;
+}
+
+.block-absolute {
+    position: absolute;
+    top: 17%;
+    left: 15%;
+    height: 70%;
+    width: 70%;
+    border: 7px solid #DAD6CF;
+    background: white;
+}
